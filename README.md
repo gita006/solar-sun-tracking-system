@@ -1,4 +1,4 @@
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/2718d6d3-efb8-4c4b-bb5e-08d9d707992e" /># ☀️ Solar Tracking System using Arduino
+# ☀️ Solar Tracking System using Arduino
 
 ## 📌 Project Overview
 
@@ -62,7 +62,7 @@ The **Solar Tracking System** is an Arduino-based IoT project designed to automa
 
 ---
 
-## ⚙️ Working Principle
+⚙️ Working Principle
 
 1. The four LDR sensors continuously measure the intensity of sunlight.
 2. The Arduino reads the analog values from each LDR.
@@ -80,7 +80,7 @@ The **Solar Tracking System** is an Arduino-based IoT project designed to automa
 
 ---
 
-## 📈 Algorithm
+📈 Algorithm
 
 1. Initialize servo motor and LEDs.
 2. Read analog values from all four LDRs.
@@ -100,8 +100,7 @@ The **Solar Tracking System** is an Arduino-based IoT project designed to automa
 9. Repeat continuously.
 
 ---
-
-## 📋 Sample Serial Output
+ 📋 Sample Serial Output
 
 ```text
 LDR1=825 LDR2=810 LDR3=640 LDR4=620 Servo=94
@@ -109,13 +108,10 @@ LDR1=825 LDR2=810 LDR3=640 LDR4=620 Servo=94
 LDR1=840 LDR2=835 LDR3=650 LDR4=630 Servo=95
 
 LDR1=860 LDR2=855 LDR3=670 LDR4=655 Servo=96
-```
-
----
 
 
 
-## ▶️ How to Run
+▶️ How to Run
 
 1. Clone this repository.
 2. Open the `.ino` file in the Arduino IDE.
@@ -125,8 +121,16 @@ LDR1=860 LDR2=855 LDR3=670 LDR4=655 Servo=96
 6. Upload the code.
 7. Open the Serial Monitor at **9600 baud**.
 8. Shine light on the LDRs and observe the servo tracking the brightest direction.
+📸 Project Images
 
-## 🔮 Future Improvements
+Hardware Setup
+
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/2718d6d3-efb8-4c4b-bb5e-08d9d707992e" />
+
+Circuit Diagram
+<img width="1536" height="1024" alt="ChatGPT Image Jul 25, 2026, 08_03_07 PM" src="https://github.com/user-attachments/assets/c854cd6e-8e91-4706-b621-726b2ab8b440" />
+
+🔮 Future Improvements
 
 * Dual-axis solar tracking using two servo motors
 * Real-time monitoring using NodeMCU (ESP8266/ESP32)
@@ -138,7 +142,7 @@ LDR1=860 LDR2=855 LDR3=670 LDR4=655 Servo=96
 
 ---
 
-## 🎯 Applications
+🎯 Applications
 
 * Solar power plants
 * Smart solar charging systems
